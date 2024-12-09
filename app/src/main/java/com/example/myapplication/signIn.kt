@@ -13,6 +13,7 @@ import com.google.firebase.database.FirebaseDatabase
 class signIn : AppCompatActivity() {
     lateinit var databaseReference: DatabaseReference
 
+    //use for passing data in WelcomeActivity.kt file
     companion object {
         const val KEY_NAME = "com.example.myapplication.signIn.name"
         const val KEY_UNAME = "com.example.myapplication.signIn.uname"
